@@ -109,7 +109,7 @@ GPT_CONFIG_124M = {
     n_layers:         12,      # Transformer blocks  
     drop_rate:        0.1,     # Dropout probability  
     qkv_bias:         False,   # QKV projection bias  
-}
+}  
 **Total parameters:** ~124M  
 **Memory footprint:** ~473 MB (float32)  
 
