@@ -8,10 +8,10 @@ You can download them from Kaggle:
 
 **[OpenAI GPT-2 Weights on Kaggle](https://www.kaggle.com/datasets/xhlulu/openai-gpt2-weights)**
 
-### Alternatively, use `gpt_download3.py` to download automatically:
+### Alternatively, use `gpt_download.py` to download automatically:
 
 ```bash
-python scripts/gpt_download3.py
+python scripts/gpt_download.py
 ```
 
 ## Training Text
