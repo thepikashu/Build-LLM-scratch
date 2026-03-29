@@ -102,13 +102,13 @@ Every component hand-implemented:
 
 python  
 GPT_CONFIG_124M = {  
-    "vocab_size":       50257,   # GPT-2 BPE vocabulary  
-    "context_length":   1024,    # Max sequence length  
-    "emb_dim":          768,     # Embedding dimension  
-    "n_heads":          12,      # Attention heads  
-    "n_layers":         12,      # Transformer blocks  
-    "drop_rate":        0.1,     # Dropout probability  
-    "qkv_bias":         False,   # QKV projection bias  
+    vocab_size:       50257,   # GPT-2 BPE vocabulary  
+    context_length:   1024,    # Max sequence length  
+    emb_dim:          768,     # Embedding dimension  
+    n_heads:          12,      # Attention heads  
+    n_layers:         12,      # Transformer blocks  
+    drop_rate:        0.1,     # Dropout probability  
+    qkv_bias:         False,   # QKV projection bias  
 }
 **Total parameters:** ~124M  
 **Memory footprint:** ~473 MB (float32)  
